@@ -40,8 +40,11 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
     "accounts", 
-    "pages"
+    "pages",
+    "articles"
 ]
+
+TIME_ZONE = "America/New_York"
 
 AUTH_USER_MODEL = "accounts.CustomUser"
 
